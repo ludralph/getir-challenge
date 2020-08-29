@@ -19,5 +19,9 @@ Send a POST request to https://getir-challenge-app.herokuapp.com/api/v1/records 
 ### To run locally
 1. clone this repository.
 2. create a .env file at root (it should have MONGO_URI set to the mongo url, see dotenvexample for reference)
-npm install
-npm start
+3. npm install
+4. npm start
+5. Uisng cURL or Postman, send the sample request body to localhost:5000/api/v1/records
+
+### To run test
+1. npm run test
